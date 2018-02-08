@@ -28,6 +28,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
+    <key>NSCameraUsageDescription</key>
+    <string>$(PRODUCT_NAME) camera use</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We want to get your profile picture for this app</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

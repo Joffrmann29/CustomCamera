@@ -14,6 +14,8 @@
 		B553FAD6202B58B6006226AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B553FAD4202B58B6006226AF /* LaunchScreen.storyboard */; };
 		B553FAE1202B58B7006226AF /* CustomCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553FAE0202B58B7006226AF /* CustomCameraTests.swift */; };
 		B553FAEC202B58B7006226AF /* CustomCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553FAEB202B58B7006226AF /* CustomCameraUITests.swift */; };
+		B553FAFA202B5EF1006226AF /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553FAF9202B5EF1006226AF /* PreviewViewController.swift */; };
+		B553FAFD202B6696006226AF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B553FAFC202B6696006226AF /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B553FAE7202B58B7006226AF /* CustomCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B553FAEB202B58B7006226AF /* CustomCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraUITests.swift; sourceTree = "<group>"; };
 		B553FAED202B58B7006226AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B553FAF9202B5EF1006226AF /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		B553FAFC202B6696006226AF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B553FAFD202B6696006226AF /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				B553FADF202B58B7006226AF /* CustomCameraTests */,
 				B553FAEA202B58B7006226AF /* CustomCameraUITests */,
 				B553FAC9202B58B6006226AF /* Products */,
+				B553FAFB202B6696006226AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +106,7 @@
 				B553FACB202B58B6006226AF /* AppDelegate.swift */,
 				B553FACD202B58B6006226AF /* ViewController.swift */,
 				B553FACF202B58B6006226AF /* Main.storyboard */,
+				B553FAF9202B5EF1006226AF /* PreviewViewController.swift */,
 				B553FAD2202B58B6006226AF /* Assets.xcassets */,
 				B553FAD4202B58B6006226AF /* LaunchScreen.storyboard */,
 				B553FAD7202B58B6006226AF /* Info.plist */,
@@ -123,6 +130,14 @@
 				B553FAED202B58B7006226AF /* Info.plist */,
 			);
 			path = CustomCameraUITests;
+			sourceTree = "<group>";
+		};
+		B553FAFB202B6696006226AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B553FAFC202B6696006226AF /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +276,7 @@
 			files = (
 				B553FACE202B58B6006226AF /* ViewController.swift in Sources */,
 				B553FACC202B58B6006226AF /* AppDelegate.swift in Sources */,
+				B553FAFA202B5EF1006226AF /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LQ6RFS97ZY;
+				DEVELOPMENT_TEAM = K4XCB84M6V;
 				INFOPLIST_FILE = CustomCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scientificgames.CustomCamera;
@@ -442,7 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LQ6RFS97ZY;
+				DEVELOPMENT_TEAM = K4XCB84M6V;
 				INFOPLIST_FILE = CustomCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.scientificgames.CustomCamera;
